@@ -1,0 +1,20 @@
+[
+  {
+    "id": "review_seed_1",
+    "restaurantId": "shan-xi-magic-kitchen",
+    "name": "Haily",
+    "group": "Authentic Chinese food",
+    "rating": 9,
+    "comment": "This is exactly why average ratings are not enough. The noodles are the main reason to go.",
+    "createdAt": "2026-07-01T21:00:00.000Z"
+  },
+  {
+    "id": "review_seed_2",
+    "restaurantId": "little-sakana",
+    "name": "Charlie",
+    "group": "Teen cheap eats",
+    "rating": 8,
+    "comment": "Good for a hungry group because AYCE makes the value easier to understand.",
+    "createdAt": "2026-07-01T21:05:00.000Z"
+  }
+]

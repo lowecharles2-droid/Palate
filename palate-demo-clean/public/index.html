@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palate | Taste-Based Restaurant Discovery</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">Palate</div>
+      <a href="#demo" class="nav-link">Try demo</a>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Restaurant ratings for people who eat like you</p>
+      <h1>Stop trusting random star ratings. Find food that matches your taste.</h1>
+      <p class="hero-text">
+        Palate groups restaurant reviews by taste preference, culture, budget, and vibe so users can find restaurants that actually fit what they want.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#demo">Build my taste profile</a>
+        <a class="button secondary" href="#why">Why it matters</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="why" class="section two-column">
+      <div>
+        <p class="eyebrow">The problem</p>
+        <h2>One rating hides too many opinions.</h2>
+      </div>
+      <p>
+        A restaurant can be a 4.7 for atmosphere but a 5/10 for authentic food. Another place can look basic online but be perfect for people who care about spice, price, or cultural authenticity. Palate separates those signals.
+      </p>
+    </section>
+
+    <section class="section cards-row">
+      <article class="feature-card">
+        <h3>Taste profiles</h3>
+        <p>Users set what matters: authenticity, spice, price, health, hidden gems, or aesthetics.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Group-based reviews</h3>
+        <p>See what people with similar food preferences think, instead of one average score.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Match score</h3>
+        <p>Restaurants are ranked by how well they fit your personal taste profile.</p>
+      </article>
+    </section>
+
+    <section id="demo" class="section app-shell">
+      <div class="app-header">
+        <div>
+          <p class="eyebrow">Live demo</p>
+          <h2>Find your match</h2>
+        </div>
+        <div class="status" id="status">Loading...</div>
+      </div>
+
+      <div class="demo-grid">
+        <aside class="profile-panel">
+          <h3>Your taste profile</h3>
+          <p class="muted">Move the sliders, then the restaurant cards will rerank.</p>
+
+          <div id="sliders"></div>
+
+          <label class="search-label" for="search">Search / filter</label>
+          <input id="search" class="search" type="text" placeholder="Try Chinese, sushi, hidden gem..." />
+
+          <button id="reset" class="button secondary full">Reset profile</button>
+        </aside>
+
+        <section class="results-panel">
+          <div class="results-topline">
+            <h3>Recommended restaurants</h3>
+            <button id="openReview" class="button primary small">Add review</button>
+          </div>
+          <div id="restaurants" class="restaurant-grid"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section reviews-section">
+      <div class="results-topline">
+        <div>
+          <p class="eyebrow">Community signal</p>
+          <h2>Recent taste-group reviews</h2>
+        </div>
+      </div>
+      <div id="reviews" class="reviews"></div>
+    </section>
+  </main>
+
+  <dialog id="reviewModal" class="modal">
+    <form id="reviewForm" method="dialog">
+      <div class="modal-header">
+        <h3>Add a review</h3>
+        <button type="button" id="closeReview" class="icon-button">×</button>
+      </div>
+
+      <label>Restaurant</label>
+      <select id="reviewRestaurant" required></select>
+
+      <label>Your name</label>
+      <input id="reviewName" placeholder="Charlie" />
+
+      <label>Your taste group</label>
+      <input id="reviewGroup" placeholder="Authentic Chinese food, cheap eats, spicy food..." />
+
+      <label>Rating: <span id="ratingValue">8</span>/10</label>
+      <input id="reviewRating" type="range" min="1" max="10" value="8" />
+
+      <label>Comment</label>
+      <textarea id="reviewComment" required placeholder="What kind of person would like this place?"></textarea>
+
+      <button class="button primary full" type="submit">Submit review</button>
+    </form>
+  </dialog>
+
+  <script src="/app.js"></script>
+</body>
+</html>

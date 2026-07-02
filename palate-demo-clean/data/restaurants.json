@@ -1,0 +1,62 @@
+[
+  {
+    "id": "shan-xi-magic-kitchen",
+    "name": "Shan Xi Magic Kitchen",
+    "area": "San Diego",
+    "cuisine": "Chinese",
+    "price": "$",
+    "summary": "Hand-pulled noodles, cumin lamb, and comfort dishes with strong authentic-food appeal.",
+    "tags": ["Authentic", "Noodles", "Value", "Hidden gem"],
+    "tasteScores": { "authentic": 9, "spice": 7, "value": 8, "aesthetic": 4, "healthy": 5, "hidden": 8 }
+  },
+  {
+    "id": "little-sakana",
+    "name": "Little Sakana",
+    "area": "Mira Mesa",
+    "cuisine": "Sushi / Japanese",
+    "price": "$$",
+    "summary": "Popular AYCE sushi choice for groups, big appetite meals, and casual hangouts.",
+    "tags": ["Group friendly", "AYCE", "Japanese", "Value"],
+    "tasteScores": { "authentic": 6, "spice": 4, "value": 9, "aesthetic": 6, "healthy": 5, "hidden": 5 }
+  },
+  {
+    "id": "tacos-el-gordo",
+    "name": "Tacos El Gordo",
+    "area": "Chula Vista",
+    "cuisine": "Mexican",
+    "price": "$",
+    "summary": "Fast, famous, and reliable for street-style tacos and late-night cravings.",
+    "tags": ["Tacos", "Fast", "Value", "Popular"],
+    "tasteScores": { "authentic": 8, "spice": 7, "value": 8, "aesthetic": 5, "healthy": 4, "hidden": 4 }
+  },
+  {
+    "id": "raised-by-wolves",
+    "name": "Raised by Wolves",
+    "area": "UTC",
+    "cuisine": "American / Lounge",
+    "price": "$$$",
+    "summary": "More of a high-aesthetic spot than a budget meal, useful for showing taste differences.",
+    "tags": ["Aesthetic", "Trendy", "Date spot"],
+    "tasteScores": { "authentic": 4, "spice": 3, "value": 3, "aesthetic": 10, "healthy": 4, "hidden": 4 }
+  },
+  {
+    "id": "din-tai-fung",
+    "name": "Din Tai Fung",
+    "area": "UTC",
+    "cuisine": "Taiwanese / Chinese",
+    "price": "$$",
+    "summary": "Clean, consistent, and very approachable for soup dumplings and group meals.",
+    "tags": ["Dumplings", "Clean", "Popular", "Group friendly"],
+    "tasteScores": { "authentic": 7, "spice": 4, "value": 5, "aesthetic": 8, "healthy": 6, "hidden": 3 }
+  },
+  {
+    "id": "plant-power-fast-food",
+    "name": "Plant Power Fast Food",
+    "area": "Encinitas",
+    "cuisine": "Vegan / Fast Food",
+    "price": "$$",
+    "summary": "Better match for users prioritizing plant-based or cleaner fast food.",
+    "tags": ["Vegan", "Healthy", "Fast casual"],
+    "tasteScores": { "authentic": 5, "spice": 4, "value": 5, "aesthetic": 7, "healthy": 9, "hidden": 5 }
+  }
+]
