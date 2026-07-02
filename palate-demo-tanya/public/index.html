@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palate | Authentic Local Food Discovery</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Palate home">Palate</a>
+      <div class="nav-actions">
+        <a href="#collections" class="nav-link">Collections</a>
+        <a href="#demo" class="nav-link">Try demo</a>
+      </div>
+    </nav>
+
+    <section id="top" class="hero-content">
+      <p class="eyebrow">Authentic local food, personalized to you</p>
+      <h1>Discover food that fits your taste, budget, and goals.</h1>
+      <p class="hero-text">
+        Palate helps college students and young professionals find authentic local restaurants without digging through fake, outdated, or cluttered reviews.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#demo">Ask Palate AI</a>
+        <a class="button secondary" href="#why">See the concept</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="why" class="section two-column">
+      <div>
+        <p class="eyebrow">Blue ocean positioning</p>
+        <h2>Not another Yelp. A curated food discovery platform.</h2>
+      </div>
+      <div class="stacked-copy">
+        <p>
+          People struggle to answer: <strong>“Where can I find authentic, good food that fits my budget and goals?”</strong>
+        </p>
+        <p>
+          Yelp can feel outdated, Google Maps is cluttered, TikTok is hard to organize, and delivery apps focus on ordering instead of discovery. Palate combines taste matching, curated collections, and a lightweight nutrition layer.
+        </p>
+      </div>
+    </section>
+
+    <section class="section cards-row">
+      <article class="feature-card">
+        <span class="feature-icon">🎯</span>
+        <h3>Target users</h3>
+        <p>College students and young professionals who love trying local food, care about value, and discover restaurants through TikTok or Instagram.</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-icon">⭐</span>
+        <h3>Authenticity score</h3>
+        <p>Each restaurant gets a simple score based on local appeal, family-owned feel, traditional dishes, and taste-group reviews.</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-icon">💪</span>
+        <h3>Nutrition layer</h3>
+        <p>Restaurant cards show estimated calories, protein, carbs, vegetarian options, and high-protein categories without becoming MyFitnessPal.</p>
+      </article>
+    </section>
+
+    <section id="collections" class="section collections-section">
+      <div class="section-heading">
+        <p class="eyebrow">Curated discovery</p>
+        <h2>Collections, not random results.</h2>
+        <p class="muted">Choose a vibe first, then Palate ranks restaurants by your taste profile.</p>
+      </div>
+      <div id="collectionCards" class="collection-grid"></div>
+    </section>
+
+    <section id="demo" class="section app-shell">
+      <div class="app-header">
+        <div>
+          <p class="eyebrow">Live demo</p>
+          <h2>Ask Palate what to eat</h2>
+          <p class="muted compact">Demo distance uses UCSD / La Jolla as the sample “you” location.</p>
+        </div>
+        <div class="status" id="status">Loading...</div>
+      </div>
+
+      <div class="ai-box">
+        <div>
+          <label class="search-label" for="aiPrompt">AI craving assistant</label>
+          <input id="aiPrompt" class="search" type="text" placeholder="Example: spicy under $15 with at least 30g protein" />
+          <p id="aiExplanation" class="muted compact">Try: “healthy vegetarian near campus”, “authentic Mexican under $10”, or “high protein Korean BBQ”.</p>
+        </div>
+        <button id="askAi" class="button primary">Find food</button>
+      </div>
+
+      <div class="demo-grid">
+        <aside class="profile-panel">
+          <h3>Your taste profile</h3>
+          <p class="muted">Move the sliders, then the restaurant cards rerank by match score.</p>
+
+          <div id="sliders"></div>
+
+          <label class="search-label" for="search">Search / filter</label>
+          <input id="search" class="search" type="text" placeholder="Try Chinese, Indian, protein, vegetarian..." />
+
+          <label class="search-label" for="distanceLimit">Distance from you</label>
+          <select id="distanceLimit">
+            <option value="999">Any distance</option>
+            <option value="3">Within 3 miles</option>
+            <option value="5">Within 5 miles</option>
+            <option value="10">Within 10 miles</option>
+            <option value="15">Within 15 miles</option>
+          </select>
+
+          <label class="search-label">Categories</label>
+          <div id="categoryFilters" class="category-filters"></div>
+
+          <button id="reset" class="button secondary full">Reset demo</button>
+        </aside>
+
+        <section class="results-panel">
+          <div class="results-topline">
+            <div>
+              <h3>Recommended restaurants</h3>
+              <p id="resultCount" class="muted compact">0 restaurants shown</p>
+            </div>
+            <button id="openReview" class="button primary small">Add review</button>
+          </div>
+          <div id="activeFilters" class="active-filters"></div>
+          <div id="restaurants" class="restaurant-grid"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section revenue-section">
+      <div class="section-heading">
+        <p class="eyebrow">LaunchX business model</p>
+        <h2>How Palate could make money later</h2>
+      </div>
+      <div class="model-grid">
+        <article class="feature-card"><h3>Sponsored restaurants</h3><p>Local restaurants pay to appear in relevant collections like Student Favorites or Authentic Mexican.</p></article>
+        <article class="feature-card"><h3>Premium subscription</h3><p>$2–5/month for AI meal planning, nutrition tracking, unlimited collections, and exclusive discounts.</p></article>
+        <article class="feature-card"><h3>Restaurant analytics</h3><p>Businesses see search trends, demographic interest, and which dishes bring people in.</p></article>
+        <article class="feature-card"><h3>Affiliate commission</h3><p>Palate can earn a small fee when users reserve a table or place an order through partner links.</p></article>
+      </div>
+    </section>
+
+    <section class="section reviews-section">
+      <div class="results-topline">
+        <div>
+          <p class="eyebrow">Community signal</p>
+          <h2>Recent taste-group reviews</h2>
+        </div>
+      </div>
+      <div id="reviews" class="reviews"></div>
+    </section>
+  </main>
+
+  <dialog id="detailModal" class="modal large-modal">
+    <div class="modal-body">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">Restaurant page</p>
+          <h3 id="detailName">Restaurant</h3>
+        </div>
+        <button type="button" id="closeDetail" class="icon-button">×</button>
+      </div>
+      <div id="detailContent"></div>
+    </div>
+  </dialog>
+
+  <dialog id="reviewModal" class="modal">
+    <form id="reviewForm" method="dialog">
+      <div class="modal-header">
+        <h3>Add a review</h3>
+        <button type="button" id="closeReview" class="icon-button">×</button>
+      </div>
+
+      <label>Restaurant</label>
+      <select id="reviewRestaurant" required></select>
+
+      <label>Your name</label>
+      <input id="reviewName" placeholder="Charlie" />
+
+      <label>Your taste group</label>
+      <input id="reviewGroup" placeholder="High protein, vegetarian, authentic Chinese food, cheap eats..." />
+
+      <label>Rating: <span id="ratingValue">8</span>/10</label>
+      <input id="reviewRating" type="range" min="1" max="10" value="8" />
+
+      <label>Comment</label>
+      <textarea id="reviewComment" required placeholder="What kind of person would like this place?"></textarea>
+
+      <button class="button primary full" type="submit">Submit review</button>
+    </form>
+  </dialog>
+
+  <script src="/app.js"></script>
+</body>
+</html>

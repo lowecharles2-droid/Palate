@@ -1,0 +1,1809 @@
+[
+  {
+    "id": "shan-xi-magic-kitchen",
+    "name": "Shan Xi Magic Kitchen",
+    "area": "Kearny Mesa / Convoy",
+    "cuisine": "Chinese",
+    "price": "$",
+    "summary": "Hand-pulled noodles, cumin lamb, and comfort dishes with strong authentic-food appeal.",
+    "tags": [
+      "Authentic",
+      "Noodles",
+      "Spicy",
+      "Value",
+      "Hidden gem"
+    ],
+    "categories": [
+      "Chinese",
+      "Noodles",
+      "High protein",
+      "Spicy",
+      "Budget",
+      "Hidden gem"
+    ],
+    "tasteScores": {
+      "authentic": 9,
+      "spice": 7,
+      "value": 8,
+      "aesthetic": 4,
+      "healthy": 5,
+      "hidden": 8,
+      "protein": 8,
+      "vegetarian": 4
+    },
+    "address": "4344 Convoy St, San Diego, CA 92111",
+    "hours": "Typical lunch and dinner hours; verify current hours before visiting.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.shanximagickitchen.com/",
+    "instagram": "",
+    "reservation": "",
+    "distanceMiles": 8.6,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Biang biang noodles with cumin lamb",
+    "nutrition": {
+      "calories": 820,
+      "protein": 38,
+      "carbs": 95
+    },
+    "authenticityScore": 10,
+    "collections": [
+      "Hidden Gems",
+      "High Protein",
+      "Under $10",
+      "Student Favorites",
+      "Family-Owned Businesses"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Shan%20Xi%20Magic%20Kitchen%204344%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111"
+  },
+  {
+    "id": "din-tai-fung",
+    "name": "Din Tai Fung",
+    "area": "UTC",
+    "cuisine": "Taiwanese / Chinese",
+    "price": "$$",
+    "summary": "Clean, consistent soup dumplings, noodles, fried rice, and group-friendly dishes.",
+    "tags": [
+      "Dumplings",
+      "Clean",
+      "Popular",
+      "Group friendly"
+    ],
+    "categories": [
+      "Chinese",
+      "Taiwanese",
+      "Dumplings",
+      "Vegetarian options",
+      "Group friendly",
+      "Aesthetic",
+      "High protein",
+      "Near campus"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 4,
+      "value": 5,
+      "aesthetic": 8,
+      "healthy": 6,
+      "hidden": 3,
+      "protein": 6,
+      "vegetarian": 6
+    },
+    "address": "4301 La Jolla Village Dr, San Diego, CA 92122",
+    "hours": "Daily restaurant hours vary; check official location page.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.dintaifungusa.com/us/locations/san-diego.html",
+    "instagram": "https://www.instagram.com/dintaifungusa/",
+    "reservation": "https://www.dintaifungusa.com/us/locations/san-diego.html",
+    "distanceMiles": 3.7,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Xiao long bao, cucumber salad, chicken fried rice",
+    "nutrition": {
+      "calories": 760,
+      "protein": 34,
+      "carbs": 88
+    },
+    "authenticityScore": 7,
+    "collections": [
+      "Student Favorites",
+      "Worth the Wait",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Din%20Tai%20Fung%204301%20La%20Jolla%20Village%20Dr%2C%20San%20Diego%2C%20CA%2092122"
+  },
+  {
+    "id": "tasty-noodle-house",
+    "name": "Tasty Noodle House",
+    "area": "Convoy",
+    "cuisine": "Chinese",
+    "price": "$$",
+    "summary": "Good for dumplings, noodle dishes, fried rice, and shareable Chinese comfort food.",
+    "tags": [
+      "Dumplings",
+      "Noodles",
+      "Shareable",
+      "Comfort food"
+    ],
+    "categories": [
+      "Chinese",
+      "Dumplings",
+      "Noodles",
+      "Group friendly",
+      "Vegetarian options",
+      "High protein"
+    ],
+    "tasteScores": {
+      "authentic": 8,
+      "spice": 5,
+      "value": 7,
+      "aesthetic": 5,
+      "healthy": 5,
+      "hidden": 6,
+      "protein": 6,
+      "vegetarian": 5
+    },
+    "address": "4646 Convoy St, San Diego, CA 92111",
+    "hours": "Typical lunch and dinner hours; verify current hours before visiting.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://tastynoodlehousesd.com/",
+    "instagram": "",
+    "reservation": "",
+    "distanceMiles": 8.4,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Pan-fried pork buns and noodle soup",
+    "nutrition": {
+      "calories": 780,
+      "protein": 32,
+      "carbs": 92
+    },
+    "authenticityScore": 9,
+    "collections": [
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Tasty%20Noodle%20House%204646%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111"
+  },
+  {
+    "id": "spicy-city",
+    "name": "Spicy City",
+    "area": "Convoy",
+    "cuisine": "Sichuan Chinese",
+    "price": "$$",
+    "summary": "Best fit for users who care about spicy, bold, authentic-style Chinese food.",
+    "tags": [
+      "Very spicy",
+      "Authentic",
+      "Sichuan",
+      "Group friendly"
+    ],
+    "categories": [
+      "Chinese",
+      "Sichuan",
+      "Spicy",
+      "High protein",
+      "Group friendly"
+    ],
+    "tasteScores": {
+      "authentic": 9,
+      "spice": 10,
+      "value": 7,
+      "aesthetic": 4,
+      "healthy": 4,
+      "hidden": 7,
+      "protein": 8,
+      "vegetarian": 4
+    },
+    "address": "4690 Convoy St, San Diego, CA 92111",
+    "hours": "Typical lunch and dinner hours; verify current hours before visiting.",
+    "phone": "Check official site or Google Maps",
+    "website": "",
+    "instagram": "",
+    "reservation": "",
+    "distanceMiles": 8.5,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Sichuan boiled fish or mapo tofu",
+    "nutrition": {
+      "calories": 720,
+      "protein": 42,
+      "carbs": 42
+    },
+    "authenticityScore": 10,
+    "collections": [
+      "Hidden Gems",
+      "High Protein",
+      "Family-Owned Businesses"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Spicy%20City%204690%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111"
+  },
+  {
+    "id": "little-sakana",
+    "name": "Little Sakana",
+    "area": "Mira Mesa",
+    "cuisine": "Sushi / Japanese",
+    "price": "$$",
+    "summary": "Popular AYCE sushi choice for groups, big appetite meals, and casual hangouts.",
+    "tags": [
+      "AYCE",
+      "Sushi",
+      "Group friendly",
+      "Value"
+    ],
+    "categories": [
+      "Japanese",
+      "Sushi",
+      "High protein",
+      "Group friendly",
+      "Value"
+    ],
+    "tasteScores": {
+      "authentic": 6,
+      "spice": 4,
+      "value": 9,
+      "aesthetic": 6,
+      "healthy": 5,
+      "hidden": 5,
+      "protein": 9,
+      "vegetarian": 3
+    },
+    "address": "8270 Mira Mesa Blvd, San Diego, CA 92126",
+    "hours": "Lunch and dinner hours vary; check official page before visiting.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.little-sakana.com/",
+    "instagram": "https://www.instagram.com/littlesakana_sd/",
+    "reservation": "",
+    "distanceMiles": 8.0,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "AYCE sushi rolls and hand rolls",
+    "nutrition": {
+      "calories": 900,
+      "protein": 48,
+      "carbs": 105
+    },
+    "authenticityScore": 6,
+    "collections": [
+      "High Protein"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Little%20Sakana%208270%20Mira%20Mesa%20Blvd%2C%20San%20Diego%2C%20CA%2092126"
+  },
+  {
+    "id": "sushi-ota",
+    "name": "Sushi Ota",
+    "area": "Pacific Beach",
+    "cuisine": "Japanese / Sushi",
+    "price": "$$$",
+    "summary": "Higher-end sushi pick for users who care more about quality than cheap portions.",
+    "tags": [
+      "Sushi",
+      "High quality",
+      "Protein",
+      "Date spot"
+    ],
+    "categories": [
+      "Japanese",
+      "Sushi",
+      "High protein",
+      "Date spot",
+      "Aesthetic",
+      "Healthy"
+    ],
+    "tasteScores": {
+      "authentic": 9,
+      "spice": 2,
+      "value": 4,
+      "aesthetic": 8,
+      "healthy": 8,
+      "hidden": 5,
+      "protein": 9,
+      "vegetarian": 2
+    },
+    "address": "4529 Mission Bay Dr, San Diego, CA 92109",
+    "hours": "Dinner-focused hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://sushiota.com/",
+    "instagram": "",
+    "reservation": "https://sushiota.com/",
+    "distanceMiles": 8.8,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Nigiri omakase or sashimi plate",
+    "nutrition": {
+      "calories": 620,
+      "protein": 52,
+      "carbs": 46
+    },
+    "authenticityScore": 10,
+    "collections": [
+      "High Protein",
+      "Family-Owned Businesses",
+      "Worth the Wait"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Sushi%20Ota%204529%20Mission%20Bay%20Dr%2C%20San%20Diego%2C%20CA%2092109"
+  },
+  {
+    "id": "tajima-ramen",
+    "name": "Tajima Ramen",
+    "area": "Convoy",
+    "cuisine": "Japanese / Ramen",
+    "price": "$$",
+    "summary": "Reliable ramen spot with rich bowls, sides, and an easy casual dinner vibe.",
+    "tags": [
+      "Ramen",
+      "Comfort food",
+      "Casual",
+      "Group friendly"
+    ],
+    "categories": [
+      "Japanese",
+      "Ramen",
+      "Noodles",
+      "High protein",
+      "Group friendly"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 5,
+      "value": 6,
+      "aesthetic": 6,
+      "healthy": 4,
+      "hidden": 4,
+      "protein": 8,
+      "vegetarian": 4
+    },
+    "address": "4681 Convoy St, San Diego, CA 92111",
+    "hours": "Hours vary by location; check official location page.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://tajimaramen.com/",
+    "instagram": "https://www.instagram.com/tajimaramen/",
+    "reservation": "",
+    "distanceMiles": 8.5,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Tonkotsu ramen with egg",
+    "nutrition": {
+      "calories": 880,
+      "protein": 39,
+      "carbs": 91
+    },
+    "authenticityScore": 7,
+    "collections": [
+      "High Protein"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Tajima%20Ramen%204681%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111"
+  },
+  {
+    "id": "menya-ultra",
+    "name": "Menya Ultra",
+    "area": "Kearny Mesa",
+    "cuisine": "Japanese / Ramen",
+    "price": "$$",
+    "summary": "Ramen-focused pick for users who prioritize authentic flavor and rich broth.",
+    "tags": [
+      "Ramen",
+      "Authentic",
+      "Noodles",
+      "High protein"
+    ],
+    "categories": [
+      "Japanese",
+      "Ramen",
+      "Noodles",
+      "High protein",
+      "Authentic"
+    ],
+    "tasteScores": {
+      "authentic": 9,
+      "spice": 4,
+      "value": 6,
+      "aesthetic": 6,
+      "healthy": 4,
+      "hidden": 5,
+      "protein": 8,
+      "vegetarian": 3
+    },
+    "address": "8199 Clairemont Mesa Blvd, San Diego, CA 92111",
+    "hours": "Lunch and dinner hours vary; check official location page.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://menya-ultra.com/",
+    "instagram": "https://www.instagram.com/menya_ultra/",
+    "reservation": "",
+    "distanceMiles": 9.2,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Tonkotsu ramen with chashu",
+    "nutrition": {
+      "calories": 910,
+      "protein": 42,
+      "carbs": 94
+    },
+    "authenticityScore": 9,
+    "collections": [
+      "High Protein",
+      "Worth the Wait"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Menya%20Ultra%208199%20Clairemont%20Mesa%20Blvd%2C%20San%20Diego%2C%20CA%2092111"
+  },
+  {
+    "id": "kura-revolving-sushi",
+    "name": "Kura Revolving Sushi Bar",
+    "area": "Convoy",
+    "cuisine": "Japanese / Sushi",
+    "price": "$$",
+    "summary": "Fun conveyor-belt sushi experience that works well for friend groups and variety.",
+    "tags": [
+      "Sushi",
+      "Fun",
+      "Group friendly",
+      "Casual"
+    ],
+    "categories": [
+      "Japanese",
+      "Sushi",
+      "High protein",
+      "Group friendly",
+      "Aesthetic",
+      "Healthy"
+    ],
+    "tasteScores": {
+      "authentic": 6,
+      "spice": 3,
+      "value": 6,
+      "aesthetic": 8,
+      "healthy": 6,
+      "hidden": 3,
+      "protein": 8,
+      "vegetarian": 3
+    },
+    "address": "4609 Convoy St, San Diego, CA 92111",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://kurasushi.com/",
+    "instagram": "https://www.instagram.com/kurasushi_usa/",
+    "reservation": "",
+    "distanceMiles": 8.3,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Conveyor-belt sushi plates",
+    "nutrition": {
+      "calories": 650,
+      "protein": 36,
+      "carbs": 84
+    },
+    "authenticityScore": 6,
+    "collections": [
+      "High Protein"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Kura%20Revolving%20Sushi%20Bar%204609%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111"
+  },
+  {
+    "id": "punjabi-tandoor",
+    "name": "Punjabi Tandoor",
+    "area": "Mira Mesa",
+    "cuisine": "Indian / Punjabi",
+    "price": "$",
+    "summary": "Strong value pick for Indian plates, curries, tandoori items, and big portions.",
+    "tags": [
+      "Indian",
+      "Value",
+      "Big portions",
+      "Spicy"
+    ],
+    "categories": [
+      "Indian",
+      "High protein",
+      "Vegetarian options",
+      "Spicy",
+      "Budget",
+      "Big portions"
+    ],
+    "tasteScores": {
+      "authentic": 8,
+      "spice": 8,
+      "value": 9,
+      "aesthetic": 3,
+      "healthy": 5,
+      "hidden": 6,
+      "protein": 8,
+      "vegetarian": 8
+    },
+    "address": "9235 Activity Rd, San Diego, CA 92126",
+    "hours": "Lunch and dinner hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.punjabitandoor.com/",
+    "instagram": "",
+    "reservation": "",
+    "distanceMiles": 8.2,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Chicken tikka masala with rice",
+    "nutrition": {
+      "calories": 830,
+      "protein": 43,
+      "carbs": 86
+    },
+    "authenticityScore": 9,
+    "collections": [
+      "High Protein",
+      "Under $10",
+      "Student Favorites",
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Punjabi%20Tandoor%209235%20Activity%20Rd%2C%20San%20Diego%2C%20CA%2092126"
+  },
+  {
+    "id": "himalayan-curry-and-grill",
+    "name": "Himalayan Curry and Grill",
+    "area": "Mira Mesa",
+    "cuisine": "Indian / Himalayan",
+    "price": "$$",
+    "summary": "Good for curry, naan, vegetarian dishes, and spicy comfort food.",
+    "tags": [
+      "Indian",
+      "Curry",
+      "Vegetarian options",
+      "Spicy"
+    ],
+    "categories": [
+      "Indian",
+      "Vegetarian options",
+      "High protein",
+      "Spicy",
+      "Group friendly"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 7,
+      "value": 7,
+      "aesthetic": 5,
+      "healthy": 6,
+      "hidden": 5,
+      "protein": 7,
+      "vegetarian": 8
+    },
+    "address": "9849 Mira Mesa Blvd, San Diego, CA 92131",
+    "hours": "Lunch and dinner hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.himalayancurryandgrill.com/",
+    "instagram": "",
+    "reservation": "",
+    "distanceMiles": 9.8,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Chicken momo and curry plate",
+    "nutrition": {
+      "calories": 790,
+      "protein": 40,
+      "carbs": 82
+    },
+    "authenticityScore": 8,
+    "collections": [
+      "High Protein",
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Himalayan%20Curry%20and%20Grill%209849%20Mira%20Mesa%20Blvd%2C%20San%20Diego%2C%20CA%2092131"
+  },
+  {
+    "id": "charminar-indian-restaurant",
+    "name": "Charminar Indian Restaurant",
+    "area": "Miramar",
+    "cuisine": "Indian",
+    "price": "$$",
+    "summary": "Works well for users looking for Indian food, biryani, spice, and filling meals.",
+    "tags": [
+      "Indian",
+      "Biryani",
+      "Spicy",
+      "High protein"
+    ],
+    "categories": [
+      "Indian",
+      "High protein",
+      "Vegetarian options",
+      "Spicy",
+      "Big portions"
+    ],
+    "tasteScores": {
+      "authentic": 8,
+      "spice": 8,
+      "value": 7,
+      "aesthetic": 5,
+      "healthy": 5,
+      "hidden": 6,
+      "protein": 8,
+      "vegetarian": 7
+    },
+    "address": "6755 Mira Mesa Blvd, San Diego, CA 92121",
+    "hours": "Lunch and dinner hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://charminarsandiego.com/",
+    "instagram": "",
+    "reservation": "",
+    "distanceMiles": 5.9,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Hyderabadi biryani",
+    "nutrition": {
+      "calories": 920,
+      "protein": 44,
+      "carbs": 106
+    },
+    "authenticityScore": 9,
+    "collections": [
+      "High Protein",
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Charminar%20Indian%20Restaurant%206755%20Mira%20Mesa%20Blvd%2C%20San%20Diego%2C%20CA%2092121"
+  },
+  {
+    "id": "manna-bbq",
+    "name": "Manna BBQ",
+    "area": "Convoy",
+    "cuisine": "Korean BBQ",
+    "price": "$$",
+    "summary": "Group-friendly Korean BBQ with a strong high-protein, big-meal use case.",
+    "tags": [
+      "Korean BBQ",
+      "High protein",
+      "Group friendly",
+      "AYCE"
+    ],
+    "categories": [
+      "Korean",
+      "BBQ",
+      "High protein",
+      "Group friendly",
+      "Big portions"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 5,
+      "value": 7,
+      "aesthetic": 6,
+      "healthy": 4,
+      "hidden": 4,
+      "protein": 10,
+      "vegetarian": 2
+    },
+    "address": "4428 Convoy St, San Diego, CA 92111",
+    "hours": "Lunch and dinner hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.mannabbqshabu.com/",
+    "instagram": "https://www.instagram.com/mannabbq/",
+    "reservation": "",
+    "distanceMiles": 8.7,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Korean BBQ meats and banchan",
+    "nutrition": {
+      "calories": 980,
+      "protein": 72,
+      "carbs": 48
+    },
+    "authenticityScore": 7,
+    "collections": [
+      "High Protein",
+      "Worth the Wait"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Manna%20BBQ%204428%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111"
+  },
+  {
+    "id": "woomiok",
+    "name": "Woomiok",
+    "area": "Convoy",
+    "cuisine": "Korean",
+    "price": "$$",
+    "summary": "Korean soups and comforting meals for users who want warm, savory, protein-heavy food.",
+    "tags": [
+      "Korean",
+      "Soup",
+      "High protein",
+      "Comfort food"
+    ],
+    "categories": [
+      "Korean",
+      "Soup",
+      "High protein",
+      "Authentic",
+      "Healthy-ish",
+      "Healthy"
+    ],
+    "tasteScores": {
+      "authentic": 8,
+      "spice": 5,
+      "value": 7,
+      "aesthetic": 5,
+      "healthy": 6,
+      "hidden": 6,
+      "protein": 9,
+      "vegetarian": 3
+    },
+    "address": "3860 Convoy St, San Diego, CA 92111",
+    "hours": "Typical lunch and dinner hours; verify before visiting.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://woomiok.com/",
+    "instagram": "https://www.instagram.com/woomiok/",
+    "reservation": "",
+    "distanceMiles": 8.4,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Seolleongtang beef bone soup",
+    "nutrition": {
+      "calories": 650,
+      "protein": 50,
+      "carbs": 52
+    },
+    "authenticityScore": 9,
+    "collections": [
+      "High Protein",
+      "Family-Owned Businesses"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Woomiok%203860%20Convoy%20St%2C%20San%20Diego%2C%20CA%2092111"
+  },
+  {
+    "id": "tacos-el-gordo",
+    "name": "Tacos El Gordo",
+    "area": "Chula Vista",
+    "cuisine": "Mexican",
+    "price": "$",
+    "summary": "Fast, famous, and reliable for street-style tacos and late-night cravings.",
+    "tags": [
+      "Tacos",
+      "Fast",
+      "Value",
+      "Popular"
+    ],
+    "categories": [
+      "Mexican",
+      "Tacos",
+      "High protein",
+      "Budget",
+      "Spicy",
+      "Healthy"
+    ],
+    "tasteScores": {
+      "authentic": 8,
+      "spice": 7,
+      "value": 8,
+      "aesthetic": 5,
+      "healthy": 4,
+      "hidden": 4,
+      "protein": 8,
+      "vegetarian": 2
+    },
+    "address": "556 Broadway, Chula Vista, CA 91910",
+    "hours": "Late hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.tacoselgordobc.com/",
+    "instagram": "https://www.instagram.com/tacoselgordo_/",
+    "reservation": "",
+    "distanceMiles": 23.5,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Adobada tacos",
+    "nutrition": {
+      "calories": 620,
+      "protein": 36,
+      "carbs": 60
+    },
+    "authenticityScore": 9,
+    "collections": [
+      "Authentic Mexican",
+      "High Protein",
+      "Under $10",
+      "Student Favorites",
+      "Family-Owned Businesses",
+      "Worth the Wait"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Tacos%20El%20Gordo%20556%20Broadway%2C%20Chula%20Vista%2C%20CA%2091910"
+  },
+  {
+    "id": "the-taco-stand",
+    "name": "The Taco Stand",
+    "area": "La Jolla / Multiple",
+    "cuisine": "Mexican",
+    "price": "$",
+    "summary": "Good casual taco and burrito pick with a strong tourist-plus-local appeal.",
+    "tags": [
+      "Tacos",
+      "Burritos",
+      "Casual",
+      "Value"
+    ],
+    "categories": [
+      "Mexican",
+      "Tacos",
+      "High protein",
+      "Budget",
+      "Group friendly",
+      "Near campus"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 6,
+      "value": 8,
+      "aesthetic": 6,
+      "healthy": 4,
+      "hidden": 3,
+      "protein": 8,
+      "vegetarian": 4
+    },
+    "address": "621 Pearl St, La Jolla, CA 92037",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://letstaco.com/",
+    "instagram": "https://www.instagram.com/letstaco_/",
+    "reservation": "",
+    "distanceMiles": 4.7,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "California burrito or al pastor tacos",
+    "nutrition": {
+      "calories": 820,
+      "protein": 39,
+      "carbs": 86
+    },
+    "authenticityScore": 7,
+    "collections": [
+      "Authentic Mexican",
+      "High Protein",
+      "Under $10",
+      "Student Favorites",
+      "Worth the Wait"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=The%20Taco%20Stand%20621%20Pearl%20St%2C%20La%20Jolla%2C%20CA%2092037"
+  },
+  {
+    "id": "lolitas-mexican-food",
+    "name": "Lolita's Mexican Food",
+    "area": "San Diego / Multiple",
+    "cuisine": "Mexican",
+    "price": "$",
+    "summary": "Casual burritos, carne asada fries, and filling Mexican food for value-focused users.",
+    "tags": [
+      "Burritos",
+      "Value",
+      "Big portions",
+      "Casual"
+    ],
+    "categories": [
+      "Mexican",
+      "Burritos",
+      "High protein",
+      "Budget",
+      "Big portions"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 5,
+      "value": 8,
+      "aesthetic": 4,
+      "healthy": 3,
+      "hidden": 4,
+      "protein": 8,
+      "vegetarian": 3
+    },
+    "address": "7305 Clairemont Mesa Blvd, San Diego, CA 92111",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://lolitasmexicanfood.com/",
+    "instagram": "https://www.instagram.com/lolitasmexicanfood/",
+    "reservation": "",
+    "distanceMiles": 9.3,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "California burrito",
+    "nutrition": {
+      "calories": 940,
+      "protein": 46,
+      "carbs": 92
+    },
+    "authenticityScore": 8,
+    "collections": [
+      "Authentic Mexican",
+      "High Protein",
+      "Under $10",
+      "Student Favorites",
+      "Family-Owned Businesses"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Lolita%27s%20Mexican%20Food%207305%20Clairemont%20Mesa%20Blvd%2C%20San%20Diego%2C%20CA%2092111"
+  },
+  {
+    "id": "oscars-mexican-seafood",
+    "name": "Oscar's Mexican Seafood",
+    "area": "Pacific Beach / Multiple",
+    "cuisine": "Mexican Seafood",
+    "price": "$",
+    "summary": "Fish tacos and seafood-focused Mexican food for users who want protein without a heavy meal.",
+    "tags": [
+      "Seafood",
+      "Tacos",
+      "High protein",
+      "Casual"
+    ],
+    "categories": [
+      "Mexican",
+      "Seafood",
+      "Tacos",
+      "High protein",
+      "Healthy-ish",
+      "Healthy"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 5,
+      "value": 7,
+      "aesthetic": 5,
+      "healthy": 7,
+      "hidden": 5,
+      "protein": 8,
+      "vegetarian": 2
+    },
+    "address": "746 Emerald St, San Diego, CA 92109",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://oscarsmexicanseafood.com/",
+    "instagram": "https://www.instagram.com/oscarsmexicanseafood/",
+    "reservation": "",
+    "distanceMiles": 7.9,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Fish tacos and ceviche",
+    "nutrition": {
+      "calories": 610,
+      "protein": 38,
+      "carbs": 58
+    },
+    "authenticityScore": 7,
+    "collections": [
+      "Authentic Mexican",
+      "High Protein",
+      "Under $10"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Oscar%27s%20Mexican%20Seafood%20746%20Emerald%20St%2C%20San%20Diego%2C%20CA%2092109"
+  },
+  {
+    "id": "bahn-thai",
+    "name": "Bahn Thai",
+    "area": "University Heights",
+    "cuisine": "Thai",
+    "price": "$$",
+    "summary": "Thai curry, noodles, and spicy dishes that work well for flavor-first users.",
+    "tags": [
+      "Thai",
+      "Spicy",
+      "Noodles",
+      "Vegetarian options"
+    ],
+    "categories": [
+      "Thai",
+      "Noodles",
+      "Spicy",
+      "Vegetarian options",
+      "Group friendly",
+      "High protein"
+    ],
+    "tasteScores": {
+      "authentic": 8,
+      "spice": 8,
+      "value": 7,
+      "aesthetic": 5,
+      "healthy": 5,
+      "hidden": 6,
+      "protein": 6,
+      "vegetarian": 7
+    },
+    "address": "4646 Park Blvd, San Diego, CA 92116",
+    "hours": "Lunch and dinner hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://bahnthaisd.com/",
+    "instagram": "https://www.instagram.com/bahnthaisd/",
+    "reservation": "",
+    "distanceMiles": 14.2,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Pad see ew or spicy curry",
+    "nutrition": {
+      "calories": 780,
+      "protein": 30,
+      "carbs": 98
+    },
+    "authenticityScore": 9,
+    "collections": [
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Bahn%20Thai%204646%20Park%20Blvd%2C%20San%20Diego%2C%20CA%2092116"
+  },
+  {
+    "id": "soi-30th",
+    "name": "Soi 30th",
+    "area": "North Park",
+    "cuisine": "Thai",
+    "price": "$$",
+    "summary": "Thai street-food inspired option with strong flavor, spice, and neighborhood energy.",
+    "tags": [
+      "Thai",
+      "Spicy",
+      "Street food",
+      "Aesthetic"
+    ],
+    "categories": [
+      "Thai",
+      "Spicy",
+      "Vegetarian options",
+      "Date spot",
+      "Aesthetic",
+      "High protein"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 8,
+      "value": 6,
+      "aesthetic": 8,
+      "healthy": 5,
+      "hidden": 6,
+      "protein": 6,
+      "vegetarian": 7
+    },
+    "address": "3442 30th St, San Diego, CA 92104",
+    "hours": "Dinner-focused hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.soi30th.com/",
+    "instagram": "https://www.instagram.com/soi30th/",
+    "reservation": "",
+    "distanceMiles": 13.7,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Khao soi or Thai street-food plates",
+    "nutrition": {
+      "calories": 760,
+      "protein": 32,
+      "carbs": 78
+    },
+    "authenticityScore": 7,
+    "collections": [
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Soi%2030th%203442%2030th%20St%2C%20San%20Diego%2C%20CA%2092104"
+  },
+  {
+    "id": "pho-cow-cali",
+    "name": "Pho Cow Cali",
+    "area": "Mira Mesa",
+    "cuisine": "Vietnamese",
+    "price": "$",
+    "summary": "Value-heavy pho spot for warm bowls, protein, and fast casual Vietnamese food.",
+    "tags": [
+      "Pho",
+      "Vietnamese",
+      "Value",
+      "High protein"
+    ],
+    "categories": [
+      "Vietnamese",
+      "Soup",
+      "Noodles",
+      "High protein",
+      "Budget",
+      "Healthy-ish",
+      "Healthy"
+    ],
+    "tasteScores": {
+      "authentic": 8,
+      "spice": 4,
+      "value": 9,
+      "aesthetic": 3,
+      "healthy": 7,
+      "hidden": 6,
+      "protein": 8,
+      "vegetarian": 3
+    },
+    "address": "9170 Mira Mesa Blvd, San Diego, CA 92126",
+    "hours": "Hours vary; check current listing before visiting.",
+    "phone": "Check official site or Google Maps",
+    "website": "",
+    "instagram": "",
+    "reservation": "",
+    "distanceMiles": 8.7,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Rare steak pho",
+    "nutrition": {
+      "calories": 650,
+      "protein": 41,
+      "carbs": 76
+    },
+    "authenticityScore": 9,
+    "collections": [
+      "High Protein",
+      "Under $10",
+      "Student Favorites",
+      "Family-Owned Businesses"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Pho%20Cow%20Cali%209170%20Mira%20Mesa%20Blvd%2C%20San%20Diego%2C%20CA%2092126"
+  },
+  {
+    "id": "pho-ca-dao",
+    "name": "Pho Ca Dao",
+    "area": "San Diego / Multiple",
+    "cuisine": "Vietnamese",
+    "price": "$",
+    "summary": "Casual pho and Vietnamese food with good value and easy group ordering.",
+    "tags": [
+      "Pho",
+      "Vietnamese",
+      "Value",
+      "Casual"
+    ],
+    "categories": [
+      "Vietnamese",
+      "Soup",
+      "Noodles",
+      "High protein",
+      "Budget",
+      "Group friendly",
+      "Healthy"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 4,
+      "value": 8,
+      "aesthetic": 4,
+      "healthy": 7,
+      "hidden": 5,
+      "protein": 8,
+      "vegetarian": 4
+    },
+    "address": "8373 Mira Mesa Blvd, San Diego, CA 92126",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://phocadaogrill.com/",
+    "instagram": "https://www.instagram.com/phocadaogrill/",
+    "reservation": "",
+    "distanceMiles": 8.3,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Pho tai or grilled pork rice plate",
+    "nutrition": {
+      "calories": 700,
+      "protein": 43,
+      "carbs": 80
+    },
+    "authenticityScore": 8,
+    "collections": [
+      "High Protein",
+      "Under $10",
+      "Student Favorites",
+      "Family-Owned Businesses"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Pho%20Ca%20Dao%208373%20Mira%20Mesa%20Blvd%2C%20San%20Diego%2C%20CA%2092126"
+  },
+  {
+    "id": "plumeria-vegetarian",
+    "name": "Plumeria Vegetarian",
+    "area": "University Heights",
+    "cuisine": "Vegetarian Thai",
+    "price": "$$",
+    "summary": "Vegetarian Thai restaurant that makes plant-based filtering feel useful in the demo.",
+    "tags": [
+      "Vegetarian",
+      "Thai",
+      "Vegan options",
+      "Healthy"
+    ],
+    "categories": [
+      "Thai",
+      "Vegetarian",
+      "Vegan options",
+      "Healthy",
+      "Noodles",
+      "Spicy"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 6,
+      "value": 6,
+      "aesthetic": 7,
+      "healthy": 8,
+      "hidden": 6,
+      "protein": 5,
+      "vegetarian": 10
+    },
+    "address": "4661 Park Blvd, San Diego, CA 92116",
+    "hours": "Lunch and dinner hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.plumeriavegetarian.com/",
+    "instagram": "https://www.instagram.com/plumeriavegetarian/",
+    "reservation": "",
+    "distanceMiles": 14.1,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Vegetarian duck curry",
+    "nutrition": {
+      "calories": 640,
+      "protein": 24,
+      "carbs": 77
+    },
+    "authenticityScore": 8,
+    "collections": [
+      "Vegan",
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Plumeria%20Vegetarian%204661%20Park%20Blvd%2C%20San%20Diego%2C%20CA%2092116"
+  },
+  {
+    "id": "plant-power-fast-food",
+    "name": "Plant Power Fast Food",
+    "area": "Encinitas / Multiple",
+    "cuisine": "Vegan / Fast Food",
+    "price": "$$",
+    "summary": "Better match for users prioritizing plant-based or cleaner fast food.",
+    "tags": [
+      "Vegan",
+      "Plant-based",
+      "Fast casual",
+      "Vegetarian"
+    ],
+    "categories": [
+      "Vegan",
+      "Vegetarian",
+      "Fast casual",
+      "Healthy-ish",
+      "Budget"
+    ],
+    "tasteScores": {
+      "authentic": 5,
+      "spice": 4,
+      "value": 5,
+      "aesthetic": 7,
+      "healthy": 8,
+      "hidden": 5,
+      "protein": 5,
+      "vegetarian": 10
+    },
+    "address": "2204 Sunset Cliffs Blvd, San Diego, CA 92107",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.plantpowerfastfood.com/",
+    "instagram": "https://www.instagram.com/plantpowerfastfood/",
+    "reservation": "",
+    "distanceMiles": 14.0,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Plant-based burger and fries",
+    "nutrition": {
+      "calories": 830,
+      "protein": 28,
+      "carbs": 94
+    },
+    "authenticityScore": 5,
+    "collections": [
+      "Vegan",
+      "Student Favorites",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Plant%20Power%20Fast%20Food%202204%20Sunset%20Cliffs%20Blvd%2C%20San%20Diego%2C%20CA%2092107"
+  },
+  {
+    "id": "cava",
+    "name": "CAVA",
+    "area": "UTC / Multiple",
+    "cuisine": "Mediterranean",
+    "price": "$$",
+    "summary": "Build-your-own bowls make it easy to choose high-protein, vegetarian, or healthy meals.",
+    "tags": [
+      "Bowls",
+      "Healthy",
+      "High protein",
+      "Vegetarian options"
+    ],
+    "categories": [
+      "Mediterranean",
+      "Bowls",
+      "High protein",
+      "Vegetarian options",
+      "Healthy",
+      "Fast casual",
+      "Near campus"
+    ],
+    "tasteScores": {
+      "authentic": 5,
+      "spice": 5,
+      "value": 6,
+      "aesthetic": 7,
+      "healthy": 9,
+      "hidden": 2,
+      "protein": 8,
+      "vegetarian": 8
+    },
+    "address": "8849 Villa La Jolla Dr, La Jolla, CA 92037",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://cava.com/",
+    "instagram": "https://www.instagram.com/cava/",
+    "reservation": "",
+    "distanceMiles": 2.8,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Greens and grains bowl with chicken",
+    "nutrition": {
+      "calories": 690,
+      "protein": 45,
+      "carbs": 62
+    },
+    "authenticityScore": 5,
+    "collections": [
+      "High Protein",
+      "Student Favorites",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=CAVA%208849%20Villa%20La%20Jolla%20Dr%2C%20La%20Jolla%2C%20CA%2092037"
+  },
+  {
+    "id": "luna-grill",
+    "name": "Luna Grill",
+    "area": "Carmel Valley / Multiple",
+    "cuisine": "Mediterranean",
+    "price": "$$",
+    "summary": "Mediterranean plates, bowls, and wraps with easy high-protein and healthier options.",
+    "tags": [
+      "Mediterranean",
+      "High protein",
+      "Healthy",
+      "Fast casual"
+    ],
+    "categories": [
+      "Mediterranean",
+      "High protein",
+      "Vegetarian options",
+      "Healthy",
+      "Fast casual"
+    ],
+    "tasteScores": {
+      "authentic": 5,
+      "spice": 3,
+      "value": 6,
+      "aesthetic": 6,
+      "healthy": 8,
+      "hidden": 2,
+      "protein": 8,
+      "vegetarian": 7
+    },
+    "address": "5950 Village Way, San Diego, CA 92130",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://lunagrill.com/",
+    "instagram": "https://www.instagram.com/lunagrill/",
+    "reservation": "",
+    "distanceMiles": 7.2,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Chicken kabob plate",
+    "nutrition": {
+      "calories": 740,
+      "protein": 54,
+      "carbs": 62
+    },
+    "authenticityScore": 5,
+    "collections": [
+      "High Protein",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Luna%20Grill%205950%20Village%20Way%2C%20San%20Diego%2C%20CA%2092130"
+  },
+  {
+    "id": "the-kebab-shop",
+    "name": "The Kebab Shop",
+    "area": "San Diego / Multiple",
+    "cuisine": "Mediterranean / Kebab",
+    "price": "$",
+    "summary": "Fast casual kebabs, wraps, and boxes for users who want filling protein-heavy meals.",
+    "tags": [
+      "Kebab",
+      "High protein",
+      "Value",
+      "Fast casual"
+    ],
+    "categories": [
+      "Mediterranean",
+      "High protein",
+      "Budget",
+      "Fast casual",
+      "Big portions",
+      "Near campus"
+    ],
+    "tasteScores": {
+      "authentic": 6,
+      "spice": 5,
+      "value": 8,
+      "aesthetic": 4,
+      "healthy": 6,
+      "hidden": 4,
+      "protein": 9,
+      "vegetarian": 5
+    },
+    "address": "9450 Scranton Rd, San Diego, CA 92121",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://thekebabshop.com/",
+    "instagram": "https://www.instagram.com/thekebabshop/",
+    "reservation": "",
+    "distanceMiles": 4.5,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Chicken d\u00f6ner box",
+    "nutrition": {
+      "calories": 760,
+      "protein": 50,
+      "carbs": 71
+    },
+    "authenticityScore": 6,
+    "collections": [
+      "High Protein",
+      "Under $10",
+      "Student Favorites"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=The%20Kebab%20Shop%209450%20Scranton%20Rd%2C%20San%20Diego%2C%20CA%2092121"
+  },
+  {
+    "id": "micheline-pita-house",
+    "name": "Micheline's Pita House",
+    "area": "La Jolla / Solana Beach",
+    "cuisine": "Mediterranean",
+    "price": "$",
+    "summary": "Pitas, bowls, and plates that are useful for healthy, protein, and vegetarian filters.",
+    "tags": [
+      "Pita",
+      "Bowls",
+      "Healthy",
+      "Vegetarian options"
+    ],
+    "categories": [
+      "Mediterranean",
+      "Bowls",
+      "High protein",
+      "Vegetarian options",
+      "Healthy",
+      "Budget",
+      "Near campus"
+    ],
+    "tasteScores": {
+      "authentic": 6,
+      "spice": 4,
+      "value": 7,
+      "aesthetic": 6,
+      "healthy": 8,
+      "hidden": 5,
+      "protein": 8,
+      "vegetarian": 8
+    },
+    "address": "4150 Regents Park Row, La Jolla, CA 92037",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://michelinepitahouse.com/",
+    "instagram": "https://www.instagram.com/michelinepitahouse/",
+    "reservation": "",
+    "distanceMiles": 3.8,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Chicken shawarma plate",
+    "nutrition": {
+      "calories": 720,
+      "protein": 48,
+      "carbs": 65
+    },
+    "authenticityScore": 7,
+    "collections": [
+      "High Protein",
+      "Under $10",
+      "Student Favorites",
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Micheline%27s%20Pita%20House%204150%20Regents%20Park%20Row%2C%20La%20Jolla%2C%20CA%2092037"
+  },
+  {
+    "id": "phils-bbq",
+    "name": "Phil's BBQ",
+    "area": "Point Loma",
+    "cuisine": "American BBQ",
+    "price": "$$",
+    "summary": "Classic BBQ choice for big portions, protein, and casual group meals.",
+    "tags": [
+      "BBQ",
+      "High protein",
+      "Big portions",
+      "Group friendly"
+    ],
+    "categories": [
+      "American",
+      "BBQ",
+      "High protein",
+      "Group friendly",
+      "Big portions"
+    ],
+    "tasteScores": {
+      "authentic": 6,
+      "spice": 4,
+      "value": 6,
+      "aesthetic": 5,
+      "healthy": 3,
+      "hidden": 3,
+      "protein": 10,
+      "vegetarian": 1
+    },
+    "address": "3750 Sports Arena Blvd, San Diego, CA 92110",
+    "hours": "Lunch and dinner hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://philsbbq.net/",
+    "instagram": "https://www.instagram.com/philsbbq/",
+    "reservation": "",
+    "distanceMiles": 11.7,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Baby back ribs or chicken plate",
+    "nutrition": {
+      "calories": 980,
+      "protein": 66,
+      "carbs": 72
+    },
+    "authenticityScore": 7,
+    "collections": [
+      "High Protein",
+      "Family-Owned Businesses",
+      "Worth the Wait"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Phil%27s%20BBQ%203750%20Sports%20Arena%20Blvd%2C%20San%20Diego%2C%20CA%2092110"
+  },
+  {
+    "id": "mendocino-farms",
+    "name": "Mendocino Farms",
+    "area": "La Jolla / Multiple",
+    "cuisine": "Sandwiches / Salads",
+    "price": "$$",
+    "summary": "Good for healthy-ish sandwiches, salads, vegetarian options, and easy group lunches.",
+    "tags": [
+      "Sandwiches",
+      "Salads",
+      "Vegetarian options",
+      "Healthy"
+    ],
+    "categories": [
+      "American",
+      "Salads",
+      "Sandwiches",
+      "Vegetarian options",
+      "Healthy",
+      "Group friendly",
+      "High protein",
+      "Near campus"
+    ],
+    "tasteScores": {
+      "authentic": 4,
+      "spice": 3,
+      "value": 5,
+      "aesthetic": 7,
+      "healthy": 8,
+      "hidden": 2,
+      "protein": 7,
+      "vegetarian": 8
+    },
+    "address": "8795 Villa La Jolla Dr, La Jolla, CA 92037",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.mendocinofarms.com/",
+    "instagram": "https://www.instagram.com/mendocinofarms/",
+    "reservation": "",
+    "distanceMiles": 2.7,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Not So Fried chicken sandwich or salad",
+    "nutrition": {
+      "calories": 730,
+      "protein": 39,
+      "carbs": 70
+    },
+    "authenticityScore": 4,
+    "collections": [
+      "Student Favorites",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Mendocino%20Farms%208795%20Villa%20La%20Jolla%20Dr%2C%20La%20Jolla%2C%20CA%2092037"
+  },
+  {
+    "id": "true-food-kitchen",
+    "name": "True Food Kitchen",
+    "area": "UTC",
+    "cuisine": "Healthy American",
+    "price": "$$$",
+    "summary": "Aesthetic healthy restaurant for users who prioritize clean ingredients and dietary options.",
+    "tags": [
+      "Healthy",
+      "Aesthetic",
+      "Vegetarian options",
+      "Date spot"
+    ],
+    "categories": [
+      "American",
+      "Healthy",
+      "Vegetarian options",
+      "Vegan options",
+      "Date spot",
+      "Aesthetic",
+      "High protein",
+      "Near campus"
+    ],
+    "tasteScores": {
+      "authentic": 4,
+      "spice": 3,
+      "value": 4,
+      "aesthetic": 9,
+      "healthy": 10,
+      "hidden": 2,
+      "protein": 6,
+      "vegetarian": 9
+    },
+    "address": "4303 La Jolla Village Dr, San Diego, CA 92122",
+    "hours": "Hours vary by location; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.truefoodkitchen.com/",
+    "instagram": "https://www.instagram.com/true_food_kitchen/",
+    "reservation": "https://www.truefoodkitchen.com/",
+    "distanceMiles": 3.6,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Ancient grains bowl with chicken or tofu",
+    "nutrition": {
+      "calories": 650,
+      "protein": 35,
+      "carbs": 72
+    },
+    "authenticityScore": 4,
+    "collections": [
+      "Vegan",
+      "Student Favorites",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=True%20Food%20Kitchen%204303%20La%20Jolla%20Village%20Dr%2C%20San%20Diego%2C%20CA%2092122"
+  },
+  {
+    "id": "regents-pizzeria",
+    "name": "Regents Pizzeria",
+    "area": "La Jolla / UTC",
+    "cuisine": "Pizza / Italian-American",
+    "price": "$$",
+    "summary": "Good friend-group spot for pizza, wings, slices, and casual comfort food.",
+    "tags": [
+      "Pizza",
+      "Group friendly",
+      "Comfort food",
+      "Casual"
+    ],
+    "categories": [
+      "Pizza",
+      "American",
+      "Vegetarian options",
+      "Group friendly",
+      "Big portions",
+      "High protein",
+      "Near campus"
+    ],
+    "tasteScores": {
+      "authentic": 5,
+      "spice": 3,
+      "value": 6,
+      "aesthetic": 5,
+      "healthy": 3,
+      "hidden": 4,
+      "protein": 5,
+      "vegetarian": 7
+    },
+    "address": "4150 Regents Park Row, La Jolla, CA 92037",
+    "hours": "Hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://www.regentspizza.com/",
+    "instagram": "https://www.instagram.com/regentspizza/",
+    "reservation": "",
+    "distanceMiles": 3.8,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "NY slice or deep dish",
+    "nutrition": {
+      "calories": 760,
+      "protein": 32,
+      "carbs": 86
+    },
+    "authenticityScore": 6,
+    "collections": [
+      "Under $10",
+      "Student Favorites",
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Regents%20Pizzeria%204150%20Regents%20Park%20Row%2C%20La%20Jolla%2C%20CA%2092037"
+  },
+  {
+    "id": "bronx-pizza",
+    "name": "Bronx Pizza",
+    "area": "Hillcrest",
+    "cuisine": "Pizza",
+    "price": "$",
+    "summary": "Straightforward slice shop for budget-friendly pizza and quick casual meals.",
+    "tags": [
+      "Pizza",
+      "Value",
+      "Casual",
+      "Vegetarian options"
+    ],
+    "categories": [
+      "Pizza",
+      "Budget",
+      "Vegetarian options",
+      "Fast casual",
+      "Hidden gem",
+      "Healthy"
+    ],
+    "tasteScores": {
+      "authentic": 7,
+      "spice": 2,
+      "value": 8,
+      "aesthetic": 3,
+      "healthy": 2,
+      "hidden": 7,
+      "protein": 5,
+      "vegetarian": 7
+    },
+    "address": "111 Washington St, San Diego, CA 92103",
+    "hours": "Hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://bronxpizza.com/",
+    "instagram": "https://www.instagram.com/bronxpizzasd/",
+    "reservation": "",
+    "distanceMiles": 12.4,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Cheese slice or pepperoni slice",
+    "nutrition": {
+      "calories": 620,
+      "protein": 28,
+      "carbs": 74
+    },
+    "authenticityScore": 8,
+    "collections": [
+      "Hidden Gems",
+      "Under $10",
+      "Student Favorites",
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Bronx%20Pizza%20111%20Washington%20St%2C%20San%20Diego%2C%20CA%2092103"
+  },
+  {
+    "id": "flama-llama",
+    "name": "Flama Llama",
+    "area": "Kearny Mesa",
+    "cuisine": "Latin / Asian Fusion",
+    "price": "$$",
+    "summary": "Fusion pick that shows how Palate can handle unique food preferences beyond basic cuisines.",
+    "tags": [
+      "Fusion",
+      "Aesthetic",
+      "Flavorful",
+      "Hidden gem"
+    ],
+    "categories": [
+      "Fusion",
+      "Latin",
+      "Asian",
+      "Aesthetic",
+      "Hidden gem",
+      "Vegetarian options",
+      "High protein"
+    ],
+    "tasteScores": {
+      "authentic": 5,
+      "spice": 6,
+      "value": 6,
+      "aesthetic": 8,
+      "healthy": 5,
+      "hidden": 7,
+      "protein": 6,
+      "vegetarian": 6
+    },
+    "address": "5253 Linda Vista Rd, San Diego, CA 92110",
+    "hours": "Hours vary; check official site.",
+    "phone": "Check official site or Google Maps",
+    "website": "https://flamallama.com/",
+    "instagram": "https://www.instagram.com/flamallamasd/",
+    "reservation": "",
+    "distanceMiles": 9.7,
+    "distanceFrom": "UCSD / La Jolla demo location",
+    "recommendedDish": "Lomo saltado or arroz chaufa",
+    "nutrition": {
+      "calories": 790,
+      "protein": 42,
+      "carbs": 94
+    },
+    "authenticityScore": 6,
+    "collections": [
+      "Hidden Gems",
+      "Family-Owned Businesses",
+      "Vegetarian"
+    ],
+    "directions": "https://www.google.com/maps/search/?api=1&query=Flama%20Llama%205253%20Linda%20Vista%20Rd%2C%20San%20Diego%2C%20CA%2092110"
+  }
+]
