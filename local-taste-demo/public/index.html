@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Taste</title>
+  <meta name="description" content="Local Taste helps you find restaurants based on people with similar food preferences." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Local Taste home">
+      <span class="brand-mark">LT</span>
+      <span>Local Taste</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#how">How it works</a>
+      <a href="#discover">Discover</a>
+      <a href="#review">Review</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Restaurant ratings from people with your taste</p>
+        <h1>Find food that matches what you actually like.</h1>
+        <p class="hero-subtitle">
+          Local Taste helps users discover restaurants through taste groups like authentic food, spicy food,
+          cheap eats, hidden gems, healthy meals, and aesthetic spots.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#discover">Try the demo</a>
+          <a class="button ghost" href="#how">See the pitch</a>
+        </div>
+        <div class="stats-row" id="statsRow">
+          <div><strong>8</strong><span>restaurants</span></div>
+          <div><strong>6</strong><span>taste groups</span></div>
+          <div><strong>Live</strong><span>review demo</span></div>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Example recommendation card">
+        <div class="phone-shell">
+          <div class="phone-top"></div>
+          <div class="mini-card">
+            <span class="pill">Best match</span>
+            <h2>Shan Xi Noodles</h2>
+            <p>Authentic Chinese • Convoy • $</p>
+            <div class="score-ring">94%</div>
+            <p class="small-text">People who value authentic, budget-friendly food ranked this higher than average star ratings.</p>
+          </div>
+          <div class="mini-list">
+            <span>Authentic food</span><strong>9.3</strong>
+            <span>Budget</span><strong>8.9</strong>
+            <span>Aesthetic</span><strong>4.2</strong>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="how" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Why this is different</p>
+        <h2>Normal review apps average everyone together. We do taste matching.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <h3>Build a taste profile</h3>
+          <p>Choose what matters to you: authentic, spicy, budget, aesthetic, hidden-gem, or healthy food.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">02</span>
+          <h3>Compare group scores</h3>
+          <p>See why a place can be average overall but excellent for a specific group of eaters.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <h3>Review by preference</h3>
+          <p>Users rate restaurants by taste categories, not just a single generic star rating.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="discover" class="section app-section">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Demo app</p>
+          <h2>Find your best match</h2>
+        </div>
+        <button class="button compact" id="refreshButton" type="button">Refresh data</button>
+      </div>
+
+      <div class="app-layout">
+        <aside class="controls-panel">
+          <div class="panel-card">
+            <h3>Your taste profile</h3>
+            <p class="muted">Move sliders higher for categories you care about most.</p>
+            <div class="slider-list" id="sliderList"></div>
+            <button class="button primary full" id="saveTasteButton" type="button">Save profile</button>
+            <p class="save-note" id="saveNote" aria-live="polite"></p>
+          </div>
+
+          <div class="panel-card">
+            <h3>Filters</h3>
+            <label class="field-label" for="searchInput">Search</label>
+            <input id="searchInput" class="input" type="search" placeholder="Sushi, Convoy, cheap eats..." />
+
+            <label class="field-label" for="cuisineFilter">Cuisine</label>
+            <select id="cuisineFilter" class="input">
+              <option value="all">All cuisines</option>
+            </select>
+
+            <label class="field-label" for="tagFilter">Preference tag</label>
+            <select id="tagFilter" class="input">
+              <option value="all">All tags</option>
+            </select>
+          </div>
+        </aside>
+
+        <section class="results-panel" aria-live="polite">
+          <div class="results-topline">
+            <p id="resultsCount">Loading restaurants...</p>
+            <p class="muted" id="lastUpdated">Updating...</p>
+          </div>
+          <div class="restaurant-grid" id="restaurantGrid"></div>
+        </section>
+      </div>
+    </section>
+
+    <section id="review" class="section review-section">
+      <div class="section-heading">
+        <p class="eyebrow">Public demo feature</p>
+        <h2>Add a taste-based review</h2>
+        <p class="muted wide-text">This shows how the app collects better food data than a normal one-score review platform.</p>
+      </div>
+
+      <form class="review-form" id="reviewForm">
+        <div class="form-grid">
+          <label>
+            Restaurant
+            <select id="reviewRestaurant" required></select>
+          </label>
+          <label>
+            Your name
+            <input id="reviewName" type="text" placeholder="Anonymous foodie" maxlength="40" />
+          </label>
+          <label>
+            Your taste group
+            <input id="reviewGroup" type="text" placeholder="Authentic Chinese food, cheap eats, etc." maxlength="80" />
+          </label>
+          <label>
+            Overall rating: <span id="ratingValue">8</span>/10
+            <input id="reviewRating" type="range" min="1" max="10" value="8" />
+          </label>
+        </div>
+
+        <div class="mini-score-grid" id="reviewScoreGrid"></div>
+
+        <label>
+          Short comment
+          <textarea id="reviewComment" placeholder="Why would someone with your taste like or dislike this place?" maxlength="400"></textarea>
+        </label>
+
+        <button class="button primary" type="submit">Submit review</button>
+        <p class="form-status" id="formStatus" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <dialog id="restaurantModal" class="modal">
+    <button class="modal-close" id="closeModal" aria-label="Close restaurant details">×</button>
+    <div id="modalContent"></div>
+  </dialog>
+
+  <footer class="footer">
+    <p><strong>Local Taste</strong> — LaunchX demo website</p>
+    <p>Built to show taste-based restaurant discovery, not a finished consumer app.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

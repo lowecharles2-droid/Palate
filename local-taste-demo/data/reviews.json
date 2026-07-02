@@ -1,0 +1,32 @@
+[
+  {
+    "id": "seed_1",
+    "restaurantId": "shan-xi-noodles",
+    "name": "Haily",
+    "rating": 9,
+    "tasteGroup": "Authentic Chinese food",
+    "comment": "The regular rating does not show how good this is if you actually want authentic noodles.",
+    "groupScores": { "authentic": 10, "spicy": 7, "budget": 9, "aesthetic": 4, "hiddenGem": 9, "healthy": 6 },
+    "createdAt": "2026-07-01T20:00:00.000Z"
+  },
+  {
+    "id": "seed_2",
+    "restaurantId": "cloud-nine-cafe",
+    "name": "Edison",
+    "rating": 8,
+    "tasteGroup": "Aesthetic spots",
+    "comment": "Not the best food value, but very good for studying and pictures.",
+    "groupScores": { "authentic": 5, "spicy": 1, "budget": 5, "aesthetic": 10, "hiddenGem": 5, "healthy": 6 },
+    "createdAt": "2026-07-01T20:08:00.000Z"
+  },
+  {
+    "id": "seed_3",
+    "restaurantId": "sunset-taco-shop",
+    "name": "Charlie",
+    "rating": 9,
+    "tasteGroup": "Cheap eats",
+    "comment": "This is exactly the type of place that should rank higher for students than it does overall.",
+    "groupScores": { "authentic": 7, "spicy": 7, "budget": 10, "aesthetic": 4, "hiddenGem": 8, "healthy": 4 },
+    "createdAt": "2026-07-01T20:15:00.000Z"
+  }
+]
