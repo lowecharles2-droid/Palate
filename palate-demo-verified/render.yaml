@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: palate-demo-verified
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start

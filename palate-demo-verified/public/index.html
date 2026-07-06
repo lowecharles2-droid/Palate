@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palate | Verified UCSD Food Discovery Demo</title>
+  <meta name="description" content="Palate is a source-checked restaurant discovery demo for food near UCSD." />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Palate home">Palate</a>
+      <div class="nav-actions">
+        <a href="#mvp" class="nav-link">MVP</a>
+        <a href="#demo" class="nav-link">Try demo</a>
+        <a href="#method" class="nav-link">Scoring</a>
+        <a href="#testing" class="nav-link">Testing</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">UCSD proof-of-concept demo</p>
+      <h1>Find source-checked local food without scrolling forever.</h1>
+      <p class="hero-text">
+        Palate helps students discover restaurants near UCSD by cuisine fidelity, budget, approximate distance, dietary options, and local ownership — using links to current official sources.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#demo">Open restaurant browser</a>
+        <a class="button secondary" href="#mvp">See the MVP focus</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="mvp" class="section two-column">
+      <div>
+        <p class="eyebrow">Focused LaunchX version</p>
+        <h2>One killer feature: personalized local discovery.</h2>
+      </div>
+      <div class="stacked-copy">
+        <p><strong>Target user:</strong> college students and young professionals who want authentic, good-value local food near UCSD.</p>
+        <p><strong>Core problem:</strong> Yelp, Google Maps, and TikTok can be cluttered, outdated, or hard to personalize. Palate tests whether people prefer curated, taste-based discovery.</p>
+        <p><strong>Proof of concept:</strong> users pick goals like high protein, vegetarian, spicy, budget-friendly, cuisine-focused, or locally owned, then Palate ranks a smaller source-checked directory in collapsible sections.</p>
+      </div>
+    </section>
+
+    <section class="section cards-row">
+      <article class="feature-card">
+        <span class="feature-icon">🎯</span>
+        <h3>Customer persona</h3>
+        <p>UCSD students, nearby interns, and young professionals who eat out, use social media for food ideas, and care about value.</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-icon">💡</span>
+        <h3>Value proposition</h3>
+        <p>Discover source-checked local food that matches your taste, budget, distance, and dietary preferences — all in one place.</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-icon">🧪</span>
+        <h3>What to test</h3>
+        <p>Do users care more about AI search, curated collections, cuisine-fidelity scoring, distance, or dietary filters?</p>
+      </article>
+    </section>
+
+    <section id="demo" class="section app-shell">
+      <div class="app-header">
+        <div>
+          <p class="eyebrow">Live demo</p>
+          <h2>Browse 50 source-checked UCSD-area restaurants</h2>
+          <p class="muted compact">Listings were checked against current official university, shopping-center, and restaurant pages on July 6, 2026. Distances are approximate from central UCSD; use Directions for a live route. Hours can change.</p>
+        </div>
+        <div class="status" id="status">Loading...</div>
+      </div>
+
+      <div class="ai-box">
+        <div>
+          <label class="search-label" for="aiPrompt">AI craving assistant</label>
+          <input id="aiPrompt" class="search" type="text" placeholder="Example: spicy Indian, vegetarian, near campus" />
+          <p id="aiExplanation" class="muted compact">Try: “vegan near campus”, “authentic Chinese”, “high protein”, or “local date night”.</p>
+        </div>
+        <button id="askAi" class="button primary">Find food</button>
+      </div>
+
+      <div class="demo-grid">
+        <aside class="profile-panel">
+          <h3>Your taste profile</h3>
+          <p class="muted">Move sliders or use the AI box. Results rerank by match score.</p>
+
+          <details class="control-accordion" open>
+            <summary>Preference sliders</summary>
+            <div id="sliders"></div>
+          </details>
+
+          <details class="control-accordion" open>
+            <summary>Search and distance</summary>
+            <label class="search-label" for="search">Search</label>
+            <input id="search" class="search" type="text" placeholder="Chinese, Indian, protein, vegetarian..." />
+
+            <label class="search-label" for="distanceLimit">Approximate distance from UCSD</label>
+            <select id="distanceLimit">
+              <option value="999">Any distance</option>
+              <option value="3">Within about 3 miles</option>
+              <option value="5">Within about 5 miles</option>
+              <option value="8">Within about 8 miles</option>
+              <option value="12">Within about 12 miles</option>
+              <option value="15">Within about 15 miles</option>
+            </select>
+          </details>
+
+          <details class="control-accordion" open>
+            <summary>Collections</summary>
+            <div id="collectionFilters" class="category-filters"></div>
+          </details>
+
+          <details class="control-accordion">
+            <summary>Categories</summary>
+            <div id="categoryFilters" class="category-filters"></div>
+          </details>
+
+          <button id="reset" class="button secondary full">Reset demo</button>
+        </aside>
+
+        <section class="results-panel">
+          <div class="results-topline">
+            <div>
+              <h3>Recommended restaurants</h3>
+              <p id="resultCount" class="muted compact">0 verified restaurants shown</p>
+            </div>
+            <button id="openReview" class="button primary small">Add review</button>
+          </div>
+          <div id="activeFilters" class="active-filters"></div>
+          <div id="restaurants" class="accordion-results"></div>
+        </section>
+      </div>
+    </section>
+
+    <section id="method" class="section method-section">
+      <div class="section-heading">
+        <p class="eyebrow">Transparent scoring</p>
+        <h2>“Authentic” means fidelity to what the restaurant claims to be.</h2>
+        <p class="muted">The score is a Palate editorial judgment, not an objective fact. It is kept separate from the local/independent score.</p>
+      </div>
+      <div class="model-grid">
+        <article class="feature-card"><h3>9–10</h3><p>Specialist menu with strong cuisine heritage, technique, family recipes, or direct evidence from the restaurant.</p></article>
+        <article class="feature-card"><h3>7–8</h3><p>Clear and consistent category identity, but modernized, fusion-based, or delivered through a larger chain.</p></article>
+        <article class="feature-card"><h3>5–6</h3><p>Broad or heavily adapted menu where cuisine identity is present but not the main specialist focus.</p></article>
+        <article class="feature-card"><h3>Separate local score</h3><p>A chain can score highly for cuisine fidelity while scoring low for local ownership. Burger King is the clearest example.</p></article>
+      </div>
+      <div class="accuracy-note">
+        <strong>Data policy:</strong> Palate does not invent calorie, protein, allergy, or halal certifications. Dietary tags indicate menu availability found on official sources and must be confirmed directly with the restaurant.
+      </div>
+    </section>
+
+    <section id="testing" class="section testing-section">
+      <div class="section-heading">
+        <p class="eyebrow">Testing plan</p>
+        <h2>Use this site to get real feedback.</h2>
+        <p class="muted">For LaunchX, the goal is not to build every feature. It is to prove whether people care about the core discovery experience.</p>
+      </div>
+      <div class="model-grid">
+        <article class="feature-card"><h3>20+ interviews</h3><p>Ask students how they currently choose restaurants and what frustrates them.</p></article>
+        <article class="feature-card"><h3>Website testing</h3><p>Watch users try prompts like “high protein under $15” and see if results make sense.</p></article>
+        <article class="feature-card"><h3>Traction metrics</h3><p>Track visits, restaurant detail clicks, searches, saved screenshots, and survey responses.</p></article>
+        <article class="feature-card"><h3>Next iteration</h3><p>Improve the highest-value feature first: AI search, collections, distance, dietary tags, or cuisine-fidelity scoring.</p></article>
+      </div>
+    </section>
+
+    <section class="section reviews-section">
+      <div class="results-topline">
+        <div>
+          <p class="eyebrow">Community signal</p>
+          <h2>Recent taste-group reviews</h2>
+        </div>
+      </div>
+      <div id="reviews" class="reviews"></div>
+    </section>
+  </main>
+
+  <dialog id="detailModal" class="modal large-modal">
+    <div class="modal-body">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">Restaurant page</p>
+          <h3 id="detailName">Restaurant</h3>
+        </div>
+        <button type="button" id="closeDetail" class="icon-button">×</button>
+      </div>
+      <div id="detailContent"></div>
+    </div>
+  </dialog>
+
+  <dialog id="reviewModal" class="modal">
+    <form id="reviewForm" method="dialog">
+      <div class="modal-header">
+        <h3>Add a review</h3>
+        <button type="button" id="closeReview" class="icon-button">×</button>
+      </div>
+
+      <label>Restaurant</label>
+      <select id="reviewRestaurant" required></select>
+
+      <label>Your name</label>
+      <input id="reviewName" placeholder="Charlie" />
+
+      <label>Your taste group</label>
+      <input id="reviewGroup" placeholder="High protein, vegetarian, authentic Chinese food, cheap eats..." />
+
+      <label>Rating: <span id="ratingValue">8</span>/10</label>
+      <input id="reviewRating" type="range" min="1" max="10" value="8" />
+
+      <label>Comment</label>
+      <textarea id="reviewComment" required placeholder="What kind of person would like this place?"></textarea>
+
+      <button class="button primary full" type="submit">Submit review</button>
+    </form>
+  </dialog>
+
+  <script src="/app.js"></script>
+</body>
+</html>

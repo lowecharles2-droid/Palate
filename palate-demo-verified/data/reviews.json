@@ -1,0 +1,47 @@
+[
+  {
+    "id": "seed_1",
+    "restaurantId": "curry-up-now-ucsd-campus",
+    "name": "Demo User",
+    "group": "Indian fusion + dietary options",
+    "rating": 9,
+    "comment": "The filters make it easy to find spicy, vegetarian, vegan, and halal menu options without guessing.",
+    "createdAt": "2026-07-06T12:00:00.000Z"
+  },
+  {
+    "id": "seed_2",
+    "restaurantId": "su-pan-bakery-ucsd-campus",
+    "name": "Demo User",
+    "group": "Local and traditional bakery",
+    "rating": 9,
+    "comment": "The authenticity explanation is more useful than a generic star rating because it explains the family-owned panader\u00eda background.",
+    "createdAt": "2026-07-06T12:10:00.000Z"
+  },
+  {
+    "id": "seed_3",
+    "restaurantId": "menya-ultra-westfield-utc",
+    "name": "Demo User",
+    "group": "Japanese ramen specialist",
+    "rating": 10,
+    "comment": "The cuisine-fidelity score clearly separates a specialist ramen shop from a general Asian restaurant.",
+    "createdAt": "2026-07-06T12:20:00.000Z"
+  },
+  {
+    "id": "seed_4",
+    "restaurantId": "micheline-s-pita-house-carmel-valley",
+    "name": "Demo User",
+    "group": "Healthy Mediterranean",
+    "rating": 9,
+    "comment": "Helpful for finding local Mediterranean food with vegetarian, vegan, and gluten-conscious menu choices.",
+    "createdAt": "2026-07-06T12:30:00.000Z"
+  },
+  {
+    "id": "seed_5",
+    "restaurantId": "burger-king-ucsd-campus",
+    "name": "Demo User",
+    "group": "Scoring-method test",
+    "rating": 8,
+    "comment": "The site explains why Burger King can score highly for being authentic American fast food while still scoring low for local ownership.",
+    "createdAt": "2026-07-06T12:40:00.000Z"
+  }
+]
