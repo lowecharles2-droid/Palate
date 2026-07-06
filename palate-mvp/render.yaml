@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: palate
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
