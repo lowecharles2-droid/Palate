@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f0e6" />
+  <title>Palate | Food that fits you</title>
+  <meta name="description" content="Discover verified restaurants near UCSD by cuisine, budget, distance, dietary options, and what matters to you." />
+  <link rel="icon" href="/palate-logo.png" type="image/png" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Palate home">
+        <img src="/palate-logo.png" alt="" />
+        <span>Palate</span>
+      </a>
+      <div class="nav-links">
+        <a href="#discover">Discover</a>
+        <button type="button" class="nav-button" id="locationNav">Location</button>
+        <button type="button" class="nav-button" id="groupNav">Group mode</button>
+        <button type="button" class="nav-button" id="savedNav">Saved <span id="savedNavCount">0</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Verified food discovery near UCSD</p>
+        <h1>Find food that actually fits you.</h1>
+        <p class="hero-text">Search by craving, cuisine, budget, distance, dietary options, and local character. Palate ranks a curated directory around what matters to you.</p>
+        <form class="hero-search" id="heroSearchForm">
+          <label class="sr-only" for="heroPrompt">Describe what you want to eat</label>
+          <input id="heroPrompt" type="search" placeholder="Try “spicy Indian near campus”" autocomplete="off" />
+          <button class="button primary" type="submit">Find food</button>
+        </form>
+        <div class="quick-prompts" aria-label="Popular searches">
+          <button type="button" data-prompt="high protein near campus">High protein</button>
+          <button type="button" data-prompt="authentic Mexican">Authentic Mexican</button>
+          <button type="button" data-prompt="authentic Korean">Authentic Korean</button>
+          <button type="button" data-prompt="vegetarian budget-friendly">Vegetarian</button>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Palate overview">
+        <div class="hero-card-top">
+          <span class="live-dot"></span>
+          <span id="heroDatasetStatus">Loading directory…</span>
+        </div>
+        <div class="hero-stat"><strong id="heroRestaurantCount">—</strong><span>verified restaurants</span></div>
+        <div class="hero-stat"><strong>50+</strong><span>taste and dietary signals</span></div>
+        <div class="hero-stat"><strong>1</strong><span>simple place to decide</span></div>
+        <p>Starting around UC San Diego. Official links are included so you can confirm current details before visiting.</p>
+      </aside>
+    </section>
+
+    <section id="discover" class="discover-section">
+      <div class="container">
+        <div class="section-heading discover-heading">
+          <div>
+            <p class="eyebrow">Discover</p>
+            <h2>Your next meal, narrowed down.</h2>
+          </div>
+          <div class="dataset-status" id="status" role="status">Loading restaurants…</div>
+        </div>
+
+        <div class="smart-search-panel">
+          <div class="smart-search-copy">
+            <label for="smartPrompt">Describe what you want</label>
+            <p>Use normal words. Palate will combine cuisine, dietary, distance, atmosphere, and value filters.</p>
+          </div>
+          <div class="smart-search-controls">
+            <input id="smartPrompt" type="search" placeholder="Example: local Korean food, spicy, under 5 miles" autocomplete="off" />
+            <button id="runSmartSearch" class="button primary" type="button">Search</button>
+          </div>
+          <p id="smartExplanation" class="search-explanation">Try “vegan near campus,” “authentic Thai,” “Greek food,” or “high protein.”</p>
+        </div>
+
+        <div class="app-layout">
+          <aside class="filter-panel" aria-label="Restaurant filters">
+            <div class="filter-header">
+              <div>
+                <p class="eyebrow">Preferences</p>
+                <h3>Make it yours</h3>
+              </div>
+              <button id="resetFilters" class="text-button" type="button">Reset</button>
+            </div>
+
+            <details class="filter-group" open>
+              <summary>Taste profile</summary>
+              <p class="filter-help">Higher values tell Palate what to prioritize.</p>
+              <div id="sliders"></div>
+            </details>
+
+            <details class="filter-group" open>
+              <summary>Search and distance</summary>
+              <label for="keywordSearch">Keyword</label>
+              <input id="keywordSearch" type="search" placeholder="Restaurant, cuisine, dish…" autocomplete="off" />
+              <label for="locationSelect">Starting location</label>
+              <div class="location-row">
+                <select id="locationSelect" aria-label="Starting location">
+                  <option value="ucsd">UCSD</option>
+                  <option value="utc">UTC / University City</option>
+                  <option value="la-jolla">La Jolla</option>
+                  <option value="convoy">Convoy / Kearny Mesa</option>
+                  <option value="carmel-valley">Carmel Valley / Del Mar</option>
+                  <option value="pacific-beach">Pacific Beach</option>
+                  <option value="north-park">North Park</option>
+                  <option value="current">Use my location</option>
+                  <option value="custom">Enter a neighborhood…</option>
+                </select>
+                <button id="changeLocation" class="button secondary small" type="button">Set</button>
+              </div>
+              <p class="filter-help" id="locationSummary">Distances are estimated from UCSD.</p>
+              <label for="distanceLimit">Maximum distance</label>
+              <select id="distanceLimit">
+                <option value="999">Any distance</option>
+                <option value="1">Within about 1 mile</option>
+                <option value="3">Within about 3 miles</option>
+                <option value="5">Within about 5 miles</option>
+                <option value="8">Within about 8 miles</option>
+                <option value="12">Within about 12 miles</option>
+                <option value="15">Within about 15 miles</option>
+              </select>
+              <label for="priceLimit">Maximum price</label>
+              <select id="priceLimit">
+                <option value="any">Any price</option>
+                <option value="$">$</option>
+                <option value="$$">$$ or less</option>
+                <option value="$$$">$$$ or less</option>
+              </select>
+            </details>
+
+            <details class="filter-group" open>
+              <summary>Collections</summary>
+              <div id="collectionFilters" class="chip-list"></div>
+            </details>
+
+            <details class="filter-group">
+              <summary>All categories</summary>
+              <div id="categoryFilters" class="chip-list"></div>
+            </details>
+          </aside>
+
+          <section class="results-panel" aria-live="polite">
+            <div class="results-toolbar">
+              <div>
+                <h3 id="resultsTitle">Recommended for you</h3>
+                <p id="resultCount">Loading…</p>
+              </div>
+              <label class="sort-control" for="sortBy">
+                <span>Sort</span>
+                <select id="sortBy">
+                  <option value="match">Best match</option>
+                  <option value="distance">Nearest</option>
+                  <option value="authenticity">Cuisine fidelity</option>
+                  <option value="local">Most local</option>
+                  <option value="name">Name</option>
+                </select>
+              </label>
+            </div>
+            <div id="activeFilters" class="active-filters"></div>
+            <div id="restaurants" class="accordion-results">
+              <div class="loading-state"><span class="spinner"></span><p>Finding restaurants…</p></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="info-section container">
+      <div class="section-heading centered">
+        <p class="eyebrow">How Palate works</p>
+        <h2>Less scrolling. Better decisions.</h2>
+      </div>
+      <div class="steps-grid">
+        <article class="step-card"><span>1</span><h3>Describe your craving</h3><p>Search naturally or adjust your taste profile and filters.</p></article>
+        <article class="step-card"><span>2</span><h3>Compare the right signals</h3><p>See match, distance, cuisine fidelity, local ownership, and relevant categories.</p></article>
+        <article class="step-card"><span>3</span><h3>Verify and go</h3><p>Open the restaurant’s official website, check current hours, and get directions.</p></article>
+      </div>
+    </section>
+
+    <section id="scoring" class="scoring-section">
+      <div class="container scoring-layout">
+        <div>
+          <p class="eyebrow">Transparent recommendations</p>
+          <h2>What “authentic” means on Palate.</h2>
+          <p>Palate scores <strong>cuisine fidelity</strong>: how clearly a restaurant delivers the food style it claims to represent. That is separate from whether it is locally owned.</p>
+          <p>A chain can faithfully deliver its category and still receive a low local score. Every listing includes the reasoning and source links behind its tags.</p>
+        </div>
+        <div class="score-key">
+          <div><strong>9–10</strong><span>Specialist menu with strong cuisine heritage, technique, or direct restaurant evidence.</span></div>
+          <div><strong>7–8</strong><span>Clear category identity that may be modernized, adapted, or delivered by a larger chain.</span></div>
+          <div><strong>5–6</strong><span>Broad menu where the named cuisine is present but not the main specialist focus.</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div><strong>Palate</strong><p>Food that fits you.</p></div>
+      <p>Restaurant details can change. Confirm hours, ingredients, dietary safety, and availability with the restaurant before visiting.</p>
+    </div>
+  </footer>
+
+  <dialog id="detailModal" class="modal">
+    <div class="modal-shell">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">Restaurant details</p>
+          <h2 id="detailName">Restaurant</h2>
+        </div>
+        <button type="button" id="closeDetail" class="icon-button" aria-label="Close restaurant details">×</button>
+      </div>
+      <div id="detailContent"></div>
+    </div>
+  </dialog>
+
+  <dialog id="savedModal" class="modal saved-modal">
+    <div class="modal-shell">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">Saved</p>
+          <h2>Your restaurant list</h2>
+        </div>
+        <button type="button" id="closeSaved" class="icon-button" aria-label="Close saved restaurants">×</button>
+      </div>
+      <div id="savedContent"></div>
+    </div>
+  </dialog>
+
+
+  <dialog id="onboardingModal" class="modal onboarding-modal">
+    <form method="dialog" class="modal-shell" id="onboardingForm">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">Personalize Palate</p>
+          <h2>What sounds good to you?</h2>
+          <p class="modal-intro">Answer four quick questions. You can change everything later.</p>
+        </div>
+        <button type="button" id="skipOnboarding" class="icon-button" aria-label="Skip onboarding">×</button>
+      </div>
+      <div class="onboarding-grid">
+        <fieldset>
+          <legend>Favorite cuisines</legend>
+          <div class="choice-grid" id="onboardingCuisines">
+            <label><input type="checkbox" value="Mexican"> Mexican</label>
+            <label><input type="checkbox" value="Chinese"> Chinese</label>
+            <label><input type="checkbox" value="Japanese"> Japanese</label>
+            <label><input type="checkbox" value="Korean"> Korean</label>
+            <label><input type="checkbox" value="Indian"> Indian</label>
+            <label><input type="checkbox" value="Thai"> Thai</label>
+            <label><input type="checkbox" value="Vietnamese"> Vietnamese</label>
+            <label><input type="checkbox" value="Mediterranean"> Mediterranean</label>
+            <label><input type="checkbox" value="Italian"> Italian</label>
+            <label><input type="checkbox" value="American"> American</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Dietary preferences</legend>
+          <div class="choice-grid compact" id="onboardingDietary">
+            <label><input type="checkbox" value="Vegetarian options"> Vegetarian</label>
+            <label><input type="checkbox" value="Vegan options"> Vegan</label>
+            <label><input type="checkbox" value="Halal options"> Halal</label>
+            <label><input type="checkbox" value="Gluten-conscious options"> Gluten-conscious</label>
+            <label><input type="checkbox" value="High protein"> High protein</label>
+          </div>
+        </fieldset>
+        <label>Typical budget
+          <select id="onboardingBudget">
+            <option value="any">Any price</option>
+            <option value="$">Mostly $</option>
+            <option value="$$">Up to $$</option>
+            <option value="$$$">Up to $$$</option>
+          </select>
+        </label>
+        <label>What matters most?
+          <select id="onboardingPriority">
+            <option value="authentic">Cuisine fidelity</option>
+            <option value="value">Price and value</option>
+            <option value="hidden">Local character</option>
+            <option value="healthy">Health-focused choices</option>
+            <option value="protein">Protein-friendly meals</option>
+            <option value="vegetarian">Plant-friendly choices</option>
+            <option value="aesthetic">Atmosphere</option>
+          </select>
+        </label>
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="button secondary" id="onboardingLater">Maybe later</button>
+        <button type="submit" class="button primary">Show my matches</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="locationModal" class="modal compact-modal">
+    <form method="dialog" class="modal-shell" id="locationForm">
+      <div class="modal-header">
+        <div><p class="eyebrow">Starting location</p><h2>Where are you eating from?</h2></div>
+        <button type="button" id="closeLocation" class="icon-button" aria-label="Close location settings">×</button>
+      </div>
+      <label class="stacked-label">Choose a neighborhood
+        <select id="modalLocationSelect">
+          <option value="ucsd">UCSD</option>
+          <option value="utc">UTC / University City</option>
+          <option value="la-jolla">La Jolla</option>
+          <option value="convoy">Convoy / Kearny Mesa</option>
+          <option value="carmel-valley">Carmel Valley / Del Mar</option>
+          <option value="pacific-beach">Pacific Beach</option>
+          <option value="north-park">North Park</option>
+          <option value="current">Use my current location</option>
+          <option value="custom">Enter another neighborhood</option>
+        </select>
+      </label>
+      <label class="stacked-label" id="customLocationWrap" hidden>Neighborhood
+        <input id="customLocationInput" list="supportedNeighborhoods" placeholder="Example: Mira Mesa" autocomplete="off">
+        <datalist id="supportedNeighborhoods">
+          <option value="Mira Mesa"><option value="Sorrento Valley"><option value="Clairemont Mesa"><option value="Ocean Beach"><option value="La Jolla Shores"><option value="Del Mar"><option value="Carmel Valley">
+        </datalist>
+      </label>
+      <p class="modal-intro">Distances are approximate and use neighborhood centers. Directions on each listing open the exact restaurant location.</p>
+      <div class="modal-actions"><button type="submit" class="button primary">Use this location</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="groupModal" class="modal">
+    <form method="dialog" class="modal-shell" id="groupForm">
+      <div class="modal-header">
+        <div><p class="eyebrow">Group mode</p><h2>Find somewhere everyone can eat.</h2><p class="modal-intro">Choose shared requirements. Palate will only show places that satisfy all dietary needs.</p></div>
+        <button type="button" id="closeGroup" class="icon-button" aria-label="Close group mode">×</button>
+      </div>
+      <div class="onboarding-grid">
+        <fieldset><legend>Cuisines your group likes</legend><div class="choice-grid" id="groupCuisines">
+          <label><input type="checkbox" value="Mexican"> Mexican</label><label><input type="checkbox" value="Chinese"> Chinese</label><label><input type="checkbox" value="Japanese"> Japanese</label><label><input type="checkbox" value="Korean"> Korean</label><label><input type="checkbox" value="Indian"> Indian</label><label><input type="checkbox" value="Thai"> Thai</label><label><input type="checkbox" value="Vietnamese"> Vietnamese</label><label><input type="checkbox" value="Mediterranean"> Mediterranean</label><label><input type="checkbox" value="Italian"> Italian</label><label><input type="checkbox" value="American"> American</label>
+        </div></fieldset>
+        <fieldset><legend>Required for everyone</legend><div class="choice-grid compact" id="groupDietary">
+          <label><input type="checkbox" value="Vegetarian options"> Vegetarian option</label><label><input type="checkbox" value="Vegan options"> Vegan option</label><label><input type="checkbox" value="Halal options"> Halal option</label><label><input type="checkbox" value="Gluten-conscious options"> Gluten-conscious option</label>
+        </div></fieldset>
+        <label>Group budget<select id="groupBudget"><option value="any">Any price</option><option value="$">$ only</option><option value="$$">$$ or less</option><option value="$$$">$$$ or less</option></select></label>
+        <label>Maximum distance<select id="groupDistance"><option value="3">About 3 miles</option><option value="5" selected>About 5 miles</option><option value="8">About 8 miles</option><option value="12">About 12 miles</option><option value="999">Any distance</option></select></label>
+      </div>
+      <div class="modal-actions"><button type="button" class="button secondary" id="clearGroupMode">Clear group mode</button><button type="submit" class="button primary">Find group options</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="reportModal" class="modal compact-modal">
+    <form method="dialog" class="modal-shell" id="reportForm">
+      <div class="modal-header">
+        <div><p class="eyebrow">Report a listing</p><h2 id="reportRestaurantName">Restaurant</h2></div>
+        <button type="button" id="closeReport" class="icon-button" aria-label="Close report form">×</button>
+      </div>
+      <input type="hidden" id="reportRestaurantId">
+      <label class="stacked-label">What is incorrect?
+        <select id="reportType" required><option value="">Choose one</option><option>Restaurant is closed</option><option>Hours are incorrect</option><option>Website or phone is incorrect</option><option>Dietary tag is incorrect</option><option>Address or distance is incorrect</option><option>Other</option></select>
+      </label>
+      <label class="stacked-label">Details<textarea id="reportNote" rows="4" maxlength="500" placeholder="Tell us what should be corrected."></textarea></label>
+      <p class="modal-intro">This MVP stores reports in this browser so the team can review them during testing.</p>
+      <div class="modal-actions"><button type="submit" class="button primary">Submit report</button></div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="/search-core.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

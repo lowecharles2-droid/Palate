@@ -1,0 +1,16 @@
+{
+  "name": "palate-mvp",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Palate personalized restaurant discovery MVP with onboarding, group mode, feedback, and verified food near UC San Diego.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js",
+    "test": "node tests/search.test.js && node tests/mvp.test.js"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
